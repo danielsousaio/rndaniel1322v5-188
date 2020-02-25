@@ -22,7 +22,7 @@ class CustomText(models.Model):
 
 
 class HomePage(models.Model):
-    body = models.TextField()
+    body = models.TextField(null=True, blank=True, max_length=255,)
 
     @property
     def api(self):
@@ -31,3 +31,8 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class HomePagex(models.Model):
+    "Generated Model"
+    body = models.TextField(null=True, blank=True, max_length=255,)
