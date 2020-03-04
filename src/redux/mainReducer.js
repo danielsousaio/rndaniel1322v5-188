@@ -6,6 +6,7 @@ import { combineReducers } from "redux";
 
 
 //@BlueprintReduxImportInsertion
+import Daosk23Reducer from '../features/Daosk23/redux/reducers';
 import Daosk22Reducer from '../features/Daosk22/redux/reducers';
 import { EmailAuthReducer } from '../features/EmailAuth/redux/reducers';
 
@@ -17,6 +18,7 @@ export const combinedReducers = combineReducers({
 
 
   //@BlueprintReduxCombineInsertion
+Daosk23: Daosk23Reducer,
 Daosk22: Daosk22Reducer,
 EmailAuth: EmailAuthReducer,
 

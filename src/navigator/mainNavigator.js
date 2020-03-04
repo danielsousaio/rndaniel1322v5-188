@@ -5,6 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
+import Daosk23Navigator from '../features/Daosk23/navigator';
 import Daosk22Navigator from '../features/Daosk22/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
 import stringNavigator from '../features/string/navigator';
@@ -19,6 +20,7 @@ const AppNavigator = {
       screen: SplashScreen
     },
     //@BlueprintNavigationInsertion
+Daosk23: { screen: Daosk23Navigator },
 Daosk22: { screen: Daosk22Navigator },
 EmailAuth: { screen: EmailAuthNavigator },
 string: { screen: stringNavigator },
