@@ -1,5 +1,6 @@
 export const installed_blueprints = [
   //@BlueprintInsertion
+{ name: 'Dkaoda84', human_name: 'dkaoda', access_route: 'Dkaoda84', icon: 'envelope-o'},
 { name: 'Dkaoda81', human_name: 'dkaoda', access_route: 'Dkaoda81', icon: 'envelope-o'},
 { name: 'Dkaoda78', human_name: 'dkaoda', access_route: 'Dkaoda78', icon: 'envelope-o'},
 { name: 'Dkaoda75', human_name: 'dkaoda', access_route: 'Dkaoda75', icon: 'envelope-o'},
