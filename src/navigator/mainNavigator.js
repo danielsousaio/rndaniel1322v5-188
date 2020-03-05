@@ -5,6 +5,7 @@ import {createDrawerNavigator} from 'react-navigation-drawer';
 import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
+import Dkaoda75Navigator from '../features/Dkaoda75/navigator';
 import Dkaoda72Navigator from '../features/Dkaoda72/navigator';
 import Dkaoda69Navigator from '../features/Dkaoda69/navigator';
 import Dkaoda66Navigator from '../features/Dkaoda66/navigator';
@@ -37,6 +38,7 @@ const AppNavigator = {
       screen: SplashScreen
     },
     //@BlueprintNavigationInsertion
+Dkaoda75: { screen: Dkaoda75Navigator },
 Dkaoda72: { screen: Dkaoda72Navigator },
 Dkaoda69: { screen: Dkaoda69Navigator },
 Dkaoda66: { screen: Dkaoda66Navigator },
