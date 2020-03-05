@@ -6,6 +6,7 @@ import { combineReducers } from "redux";
 
 
 //@BlueprintReduxImportInsertion
+import Dkaoda72Reducer from '../features/Dkaoda72/redux/reducers';
 import Dkaoda69Reducer from '../features/Dkaoda69/redux/reducers';
 import Dkaoda66Reducer from '../features/Dkaoda66/redux/reducers';
 import Dkaoda63Reducer from '../features/Dkaoda63/redux/reducers';
@@ -34,6 +35,7 @@ export const combinedReducers = combineReducers({
 
 
   //@BlueprintReduxCombineInsertion
+Dkaoda72: Dkaoda72Reducer,
 Dkaoda69: Dkaoda69Reducer,
 Dkaoda66: Dkaoda66Reducer,
 Dkaoda63: Dkaoda63Reducer,
