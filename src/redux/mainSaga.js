@@ -2,6 +2,7 @@ import { all, takeEvery, take } from "redux-saga/effects";
 
 
 //@BlueprintReduxSagaImportInsertion
+import Dkaoda81Saga from '../features/Dkaoda81/redux/sagas';
 import Dkaoda78Saga from '../features/Dkaoda78/redux/sagas';
 import Dkaoda75Saga from '../features/Dkaoda75/redux/sagas';
 import Dkaoda72Saga from '../features/Dkaoda72/redux/sagas';
@@ -36,6 +37,7 @@ export function* mainSaga() {
 
 
     //@BlueprintReduxSagaMainInsertion
+Dkaoda81Saga,
 Dkaoda78Saga,
 Dkaoda75Saga,
 Dkaoda72Saga,
