@@ -35,4 +35,4 @@ class HomePage(models.Model):
 
 class HomePagex(models.Model):
     "Generated Model"
-    body = models.TextField(null=True, blank=True, max_length=255,)
+    body = models.TextField(null=True, blank=True, max_length=100,)
